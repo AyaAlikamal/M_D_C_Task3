@@ -14,6 +14,8 @@ user.Money = money;
 order.Order_Name = order_name;
 order.Price = price;
 }
+money = user.Add_Money(money);
+order.Checking_Money();
 void Choose_Resturant(){
     std::cout<<"Please Enter The Resturant Name You Want to Order From ";
     std::cin>>Resturant_Name;
